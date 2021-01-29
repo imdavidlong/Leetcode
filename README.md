@@ -23,3 +23,16 @@ Idea:
 -spread the arrayList as let & dig
 -Override the Collections.sort(let,(o1,o2)->{ ....});    [hard point here]
 -put back to logs
+
+
+
+## 412. Fizz Buzz
+Q:
+1.initialize List<String>
+  - List<> => ArrayList<>()
+2.Integer to String / S to I
+  - int y =123;
+    String ans = Integer.toString(y);
+  
+  S to I:
+  - String.valueOf(Integer(123));
