@@ -8,6 +8,7 @@ Q:
                 change a element:   list.set(index,"content");
                 use size()
                 sort: Collections.sort(list)
+                
 2.length or ()
   -String: length()
   -array: .length
@@ -36,3 +37,10 @@ Q:
   
   S to I:
   - String.valueOf(Integer(123));
+
+
+## 1103. Distribute Candies to People
+1.array
+int[] ans = new int[number]
+**array cant modify the length of array
+
