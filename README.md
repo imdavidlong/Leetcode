@@ -1,12 +1,12 @@
 # Leetcode
 
-##515. Find Largest Value in Each Tree Row
-1.arrayList length or size
-2.Math.max(a,b)  return bigger value
-3. break stop that loop
+## 515. Find Largest Value in Each Tree Row
+# 1.arrayList length or size
+# 2.Math.max(a,b)  return bigger value
+# 3. break stop that loop
    continue oly stop one time
-4.  a binary tree node: each children at most 2; binary recursive struture;
-5.preorder..
+# 4.  a binary tree node: each children at most 2; binary recursive struture;
+# 5.preorder..
 
 
 
