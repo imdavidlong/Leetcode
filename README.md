@@ -2,7 +2,7 @@
 
 ## 1347. Minimum Number of Steps to Make Two Strings
 - Idea is the point:
-  =use int[26] to store data to find the number same char
+- use int[26] to store data to find the number same char
 
 ## 515. Find Largest Value in Each Tree Row
 - arrayList length or size
