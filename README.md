@@ -1,5 +1,10 @@
 # Leetcode
 
+
+## Peeking Iterator
+- Iterator is an object that can be used to loop through clollections like ArrayList.HashSet
+-EX: Iterator it = cars.Iterator();  ==> .next() // .remove()   // .hasNext()
+
 ## 1347. Minimum Number of Steps to Make Two Strings
 - Idea is the point:
 - use int[26] to store data to find the number same char
