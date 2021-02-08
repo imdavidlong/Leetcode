@@ -3,7 +3,23 @@
 
 ## Peeking Iterator
 - Iterator is an object that can be used to loop through clollections like ArrayList.HashSet
--EX: Iterator it = cars.Iterator();  ==> .next() // .remove()   // .hasNext()
+-EX: Iterator it = cars.Iterator();  
+- next()
+- .remove()
+- .hasNext()
+- create data structure then nomral public class to initialize the element:
+class PeekingIterator implements Iterator<Integer> {
+    private final Iterator<Integer> iterator;
+    private boolean hasPeek;
+    private Integer peekElement;
+  
+
+
+	public PeekingIterator(Iterator<Integer> iterator) {
+	    // initialize any member here.
+        this.iterator=iterator;
+        hasPeek=false;
+        peekElement=null;
 
 ## 1347. Minimum Number of Steps to Make Two Strings
 - Idea is the point:
