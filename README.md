@@ -1,5 +1,15 @@
 # Leetcode
 
+## 138. Copy List with Random Pointer
+- LinkedList (List interface)
+- Method for LinkedList: play with first or last element
+- addFirst/removeFirst(last)
+- get(index)
+
+Hard point:
+- how to store the pointer of random
+- use HashMap: Map<Node,Node> map = new HashMap();
+- follow idea: A -> A' ->B -> B'->C -> C'...
 
 ## Peeking Iterator
 - Iterator is an object that can be used to loop through clollections like ArrayList.HashSet
